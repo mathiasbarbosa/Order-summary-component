@@ -79,6 +79,7 @@ body{
 .buttonPrimary{
     background-color: hsl(245, 75%, 52%);
     box-shadow: 8px 8px 8px  rgba(0, 0, 0, 0.2);
+    color:rgb(255, 255, 255);
 }
 
 .buttonPrimary:hover{
@@ -86,25 +87,18 @@ body{
     transform: scale(1.05);
 }
 
-.buttonPrimary > .buttonLink{
-    color:rgb(255, 255, 255);
-}
 
 .buttonSecondary{
     background: none;
-}
-
-.buttonSecondary > .buttonLink{
     color:hsl(223, 47%, 23%) ;
 }
 
-.buttonSecondary > .buttonLink:hover{
+
+
+.buttonSecondary:hover{
 color: hsl(223, 47%, 5%);
 }
 
-.buttonLink{
-    text-decoration: none;
-}
 
 
 .attribution{
